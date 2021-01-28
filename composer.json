@@ -1,0 +1,26 @@
+{
+    "name": "krateur/paypal",
+    "description": "Paypal integration for Laravel framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "krateur",
+            "email": "gjacksongomez@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "krateur\\paypal\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "krateur\\paypal\\Tests\\": "tests/"
+        }
+    }
+}
